@@ -6,16 +6,16 @@ Inspired by 98.css, NES.css, and all the other great retro CSS floating around t
 
 
 ### Phase 1
-- [] Color schemes
-- [] Fonts
-- [] Window layout
-- [] Cursor
-- [] Icons
-- [] Scroll bars
+- [ ] Color schemes
+- [ ] Fonts
+- [ ] Window layout
+- [ ] Cursor
+- [ ] Icons
+- [ ] Scroll bars
 
 ### Phase 2
-- [] Modularize into components
-- [] Browser testing
-- [] .io page/docs
-- [] Make it SASSy
-- [] Package management (npm, maybe Yarn?)
+- [ ] Modularize into components
+- [ ] Browser testing
+- [ ] .io page/docs
+- [ ] Make it SASSy
+- [ ] Package management (npm, maybe Yarn?)
