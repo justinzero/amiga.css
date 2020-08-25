@@ -9,6 +9,10 @@ Colors
 */
 
 
+* {
+  cursor: url('./assets/amiga-cursor.png'), auto; /* Don't leave this on, finish the cursors! */
+}
+
 html {
   font-family: sans-serif;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
