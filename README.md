@@ -6,10 +6,11 @@ Inspired by 98.css, NES.css, and all the other great retro CSS floating around t
 
 
 ### Phase 1
-- [ ] Color schemes
+- [x] Color schemes
 - [ ] Fonts
 - [ ] Window layout
 - [ ] Cursor
+- [ ] Interface elements
 - [ ] Icons
 - [ ] Scroll bars
 

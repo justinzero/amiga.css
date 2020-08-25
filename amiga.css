@@ -1,0 +1,94 @@
+
+/* 
+Colors
+#b5b2b5 - bg grey
+#6b8ec6 - primary blue
+
+#450e45 - Kickstart background color 
+#f2a788 - Kickstart text and floppy drive color
+*/
+
+
+html {
+  font-family: sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000000;
+  text-align: left;
+  background-color: #b5b2b5;
+}
+
+
+.window {
+   box-sizing: border-box;
+   margin: 50px auto;   
+   min-height: 400px;
+   border-style: solid;
+   border-width: 6px 3px 6px 3px;
+   border-color: #fff #000 #000 #fff;
+}
+
+.title-bar {
+   padding: 0.6rem;
+   padding-left: 2rem;
+   background-color: #6b8ec6;
+   color: #000000;
+   /* font-weight: 700; */
+   border-bottom: 2px solid #000000; 
+}
+
+
+/* TODO - Make this all flexbox for handling inner window elements
+.inner-window {
+   border-style: solid;
+   border-width: 0px 6px 0px 6px;
+   border-color: #6b8ec6;
+} */
+
+.window-title {
+   display: inline-block;
+   transform: scaleY(1.4);
+}
+
+.window p {
+   padding: 2rem;
+   display: inline-block;
+   transform: scaleY(1.4);  /* Hack the Press Start font to look more like Topaz */
+   line-height: 1.6;
+}
+
+a {
+   text-decoration: none;
+   color: #450e45;
+}
+
+a:hover {
+   color: #fff;
+   background-color: #6b8ec6;
+   display: inline-block;
+}
+
+.wb-btn {
+   font: inherit;
+   background-color: inherit;
+   position: relative;
+   display: inline-block;
+   padding: 1rem 1rem;
+   margin: 4px;
+   text-align: center;
+   vertical-align: middle;
+   border-style: solid;
+   border-width: 4px 6px 4px 6px;
+   border-color: #fff #000 #000 #fff;
+}
+
+.temp-buttons {
+   text-align: center;
+}
