@@ -7,16 +7,20 @@ Inspired by 98.css, NES.css, and all the other great retro CSS floating around t
 
 ### Phase 1
 - [x] Color schemes
+- [x] Cursor
 - [ ] Fonts
 - [ ] Window layout
-- [ ] Cursor
+- [ ] Background dithered pattern for context windows
 - [ ] Interface elements
-- [ ] Icons
+- [ ] WB header bar/right click menu
 - [ ] Scroll bars
+- [ ] Guru Meditations
+- [ ] Icons
 
 ### Phase 2
-- [ ] Modularize into components
 - [ ] Browser testing
 - [ ] .io page/docs
 - [ ] Make it SASSy
-- [ ] Package management (npm, maybe Yarn?)
+- [ ] Modularize components
+- [ ] Package management (npm)
+- [ ] Maybe some demoscene content?
