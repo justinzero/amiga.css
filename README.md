@@ -8,10 +8,11 @@ Inspired by 98.css, NES.css, and all the other great retro CSS floating around t
 ### Phase 1
 - [x] Color schemes
 - [x] Cursor
-- [ ] Fonts
+- [x] Fonts
 - [ ] Window layout
-- [ ] Background dithered pattern for context windows
+- [ ] Background dithered pattern for dialog windows
 - [ ] Interface elements
+- [ ] Forms, inputs
 - [ ] WB header bar/right click menu
 - [ ] Scroll bars
 - [ ] Guru Meditations
