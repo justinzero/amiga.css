@@ -30,8 +30,9 @@ body {
   min-height: 100vh;
   cursor: url('./assets/amiga-cursor.png'), auto;
   font-family: 'Press Start 2P', monospace;
-  font-size: 1.1em;
+  font-size: 1.25em;
   font-weight: 500;
+  font-stretch: extra-condensed;
   line-height: 1.5;
   color: #000000;
   text-align: left;
@@ -69,13 +70,12 @@ a, button {
 
 .window-title {
    display: inline-block;
-   transform: scaleY(1.4);
+   vertical-align: center;
 }
 
 .window p {
    padding: 2rem;
    display: inline-block;
-   transform: scaleY(1.4);  /* Hack the Press Start font to look more like Topaz */
    line-height: 1.6;
 }
 
@@ -87,7 +87,6 @@ a {
 a:hover {
    color: #fff;
    background-color: #6b8ec6;
-   display: inline-block;
 }
 
 .wb-btn {
