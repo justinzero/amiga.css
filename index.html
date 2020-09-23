@@ -10,23 +10,32 @@
 
 <body>
 
-<div class="window" style="width: 60%;">
+<div class="window">
    <div class="title-bar"><span class="window-title">Amiga CSS Workbench</span></div>
    <div class="inner-window">
    <p>Lorem ipsum dolor sit amet <a href="#">consectetur adipisicing</a> elit. Repudiandae sunt eveniet cupiditate eius ex corporis hic perferendis ratione nihil omnis!</p>
 
-<div class="temp-buttons">
-   <button class="wb-btn" style="text-align: center">Click Me</button>
+<div class="center-buttons">
+   <button onclick="document.getElementById('crashModal').style.display='block'" class="wb-btn">Click Me</button>
+</div>
+</div>
 </div>
 
-</div>
-</div>
 <div id="crashModal">
    <div class="gurubox">
    <p>Software Failure. Press left mouse button to continue.</p>
-   <p>Guru Meditation #0000000.0000</p>
+   <p>Guru Meditation #0000000.000404</p>
    </div>
 </div>
-</body>
 
+<script>
+   var modal = document.getElementById('crashModal');
+   // When the user clicks anywhere outside of the modal, close it
+   window.onclick = function (event) {
+      if (event.target == modal) {
+         modal.style.display = "none";
+      }
+   }
+</script>
+</body>
 </html>

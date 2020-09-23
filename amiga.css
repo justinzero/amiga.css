@@ -44,10 +44,40 @@ a, button {
    outline: none;
    }
 
+a {
+   text-decoration: none;
+   color: #450e45;
+}
+
+a:hover {
+   color: #fff;
+   background-color: #6b8ec6;
+}
+
+button {
+   font: inherit;
+   background-color: inherit;
+   position: relative;
+   display: inline-block;
+   padding: 1rem 1rem;
+   margin: 4px;
+   text-align: center;
+   vertical-align: middle;
+   border-style: solid;
+   border-width: 4px 6px 4px 6px;
+   border-color: #fff #000 #000 #fff;
+}
+
+button:active {
+   background-color: #999;
+   border-color: #000 #fff #fff #000;
+}
+
 .window {
    box-sizing: border-box;
    margin: 50px auto;   
    min-height: 400px;
+   width: 60%;
    border-style: solid;
    border-width: 6px 3px 6px 3px;
    border-color: #fff #000 #000 #fff;
@@ -59,6 +89,8 @@ a, button {
    background-color: #6b8ec6;
    color: #000000;
    border-bottom: 2px solid #000000; 
+   overflow: hidden;
+   white-space: nowrap;
 }
 
 
@@ -80,31 +112,7 @@ a, button {
    line-height: 1.6;
 }
 
-a {
-   text-decoration: none;
-   color: #450e45;
-}
-
-a:hover {
-   color: #fff;
-   background-color: #6b8ec6;
-}
-
-.wb-btn {
-   font: inherit;
-   background-color: inherit;
-   position: relative;
-   display: inline-block;
-   padding: 1rem 1rem;
-   margin: 4px;
-   text-align: center;
-   vertical-align: middle;
-   border-style: solid;
-   border-width: 4px 6px 4px 6px;
-   border-color: #fff #000 #000 #fff;
-}
-
-.temp-buttons {
+.center-buttons {
    text-align: center;
    padding: 2em;
 }
@@ -133,10 +141,20 @@ a:hover {
    animation: failBlink 2s infinite;
 }
 
+
+
 @keyframes failBlink {
    0% {border-color: #f72000;}
    49% {border-color: #f72000;}
    50% {border-color: transparent;}
    99% {border-color: transparent;}
    100% {border-color: #f72000;}
+}
+
+@media(max-width:720px) {
+   .window {
+      width:100vw; 
+      height:100vh;
+      margin-top: 0;
+   }
 }
